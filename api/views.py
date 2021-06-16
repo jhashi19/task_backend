@@ -11,7 +11,7 @@ from .serializers import (
 
 class UserCreateView(generics.CreateAPIView):
     serializer_class = UserSerializer
-    permission_classes = (AllowAny,)
+    permission_classes = [AllowAny]
 
 
 class ObtainTokenPairWithColorView(TokenObtainPairView):
