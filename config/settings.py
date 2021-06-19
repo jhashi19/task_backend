@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     # 追加
     'rest_framework',
-    'rest_framework.authtoken',
+    'rest_framework_simplejwt',
     'corsheaders',
     'djoser',
 
